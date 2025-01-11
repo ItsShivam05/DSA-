@@ -10,7 +10,7 @@ public:
         int oddcount = 0;
         for(const auto &i:mp)
         {
-            if(i.second%2!=0) 
+            if(i.second & 1) 
             oddcount++;
         }
 
